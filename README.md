@@ -44,14 +44,21 @@ OBSERVED-stage-discharge-probability-results = script (3)
 GSSHA-MODEL-observed-stage-uncertainty = script (4) 
 GSSHA-MODEL_stage-discharge-probability-results = script (4)
 
-## Results
+## Results for Waialua USGS gauge 
+| Component | Description |
+|---|---|
+| Study area | Waialua, Oʻahu, Hawaiʻi |
+| USGS gauge | 16210500 |
+| Observed data | USGS stage–discharge measurements |
+| Rating curve | Fitted stage–discharge relationship |
+| Hydraulic model | GSSHA |
+| Model results | Simulated discharge at specified water levels |
+| Uncertainty | Shaded predictive uncertainty interval |
+| Breakpoints | 20.01 ft (6.10 m) and 26.25 ft (8.00 m) |
+| Discharge units | ft³/s (m³/s) |
+| Stage units | ft (m) |
 
 ### Stage–Discharge rating curves and USGS Peak Fq Probability Results
-
-![Waialua Rating Curve](figures/Waialua_rating_curve_comparative_GSSHA.png)
-
-*Figure 1. USGS observed stage–discharge measurements, fitted rating curve, uncertainty bounds, and GSSHA simulations.*
-
 
 | Stage (ft) | Median Discharge (cfs) | Exceedance Probability | Return Period (years) |
 |---|---:|---:|---:|
@@ -74,18 +81,5 @@ The figure below compares observed USGS stage–discharge measurements, the fitt
 ![Waialua Stage–Discharge Rating Curve](figures/Waialua_rating_curve_comparative_GSSHA.png)
 
 *Figure 1. Comparison of USGS observations, fitted rating curve, uncertainty bounds, and GSSHA model simulations for Waialua.*
-
-| Component | Description |
-|---|---|
-| Study area | Waialua, Oʻahu, Hawaiʻi |
-| USGS gauge | 16210500 |
-| Observed data | USGS stage–discharge measurements |
-| Rating curve | Fitted stage–discharge relationship |
-| Hydraulic model | GSSHA |
-| Model results | Simulated discharge at specified water levels |
-| Uncertainty | Shaded predictive uncertainty interval |
-| Breakpoints | 20.01 ft (6.10 m) and 26.25 ft (8.00 m) |
-| Discharge units | ft³/s (m³/s) |
-| Stage units | ft (m) |
 
 
