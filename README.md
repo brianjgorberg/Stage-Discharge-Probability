@@ -43,3 +43,29 @@ OBSERVED-rating-curves-results = script (2)
 OBSERVED-stage-discharge-probability-results = script (3) 
 GSSHA-MODEL-observed-stage-uncertainty = script (4) 
 GSSHA-MODEL_stage-discharge-probability-results = script (4)
+
+
+
+KEY FIGURE: 
+## Waialua Stage–Discharge Rating Curve
+
+The figure below compares observed USGS stage–discharge measurements, the fitted rating curve, and simulated discharge from the GSSHA hydraulic model for Kaukonahua Stream at Waialua, Hawaiʻi (USGS 16210500).
+
+![Waialua Stage–Discharge Rating Curve](figures/Waialua_rating_curve_comparative_GSSHA.png)
+
+*Figure 1. Comparison of USGS observations, fitted rating curve, uncertainty bounds, and GSSHA model simulations for Waialua.*
+
+### Model Comparison
+
+| Component | Description |
+|---|---|
+| Study area | Waialua, Oʻahu, Hawaiʻi |
+| USGS gauge | 16210500 |
+| Observed data | USGS stage–discharge measurements |
+| Rating curve | Fitted stage–discharge relationship |
+| Hydraulic model | GSSHA |
+| Model results | Simulated discharge at specified water levels |
+| Uncertainty | Shaded predictive uncertainty interval |
+| Breakpoints | 20.01 ft (6.10 m) and 26.25 ft (8.00 m) |
+| Discharge units | ft³/s (m³/s) |
+| Stage units | ft (m) |
