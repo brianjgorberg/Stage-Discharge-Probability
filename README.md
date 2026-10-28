@@ -83,3 +83,16 @@ The figure below compares observed USGS stage–discharge measurements, the fitt
 *Figure 1. Comparison of USGS observations, fitted rating curve, uncertainty bounds, and GSSHA model simulations for Waialua.*
 
 
+### Calculating model UNCERTAINTY using the stage error in model output vs observed rating curves
+| Target Stage (ft) | Discharge (cfs) | GSSHA Stage (ft) | Observed Stage (ft) | Stage Error (ft) | Return Period (years) |
+|---:|---:|---:|---:|---:|---:|
+| 22 | 1,815 | 21.59 | 21.90 | -0.31 | 1.69 |
+| 24 | 3,959 | 23.97 | 25.16 | -1.20 | 3.52 |
+| 26 | 6,519 | 26.20 | 26.84 | -0.64 | 7.37 |
+| 28 | 10,033 | 28.23 | 28.05 | +0.18 | 17.11 |
+| 30 | 14,744 | 30.10 | 29.51 | +0.60 | 43.66 |
+| 32 | 22,185 | 32.07 | 31.48 | +0.59 | 145.37 |
+| 34 | 37,931 | 33.78 | 34.81 | -1.03 | 1,111.68 |
+
+
+
