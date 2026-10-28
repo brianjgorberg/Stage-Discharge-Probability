@@ -1,0 +1,21 @@
+I RDB Waialua_weighted_nwis_peak.txt
+I INFO Waialua_weighted_nwis_site.txt
+O File Waialua_weighted.txt
+O Plot Format PNG
+O Plot Position 0
+O ConfInterval 0.9
+Station 16210500
+     PCPT_Thresh 1963 2024 0 1e+20 Default
+     PCPT_Thresh 1963 1967 15600 1e+20 HISTORIC 1
+     PCPT_Thresh 1995 1995 1820 1e+20 PEAK < STATED VALUE
+     PCPT_Thresh 1998 1998 1820 1e+20 PEAK < STATED VALUE
+     PCPT_Thresh 1999 1999 1820 1e+20 PEAK < STATED VALUE
+     Interval 1963  15600 15600 HISTORIC PEAK
+     Interval 1995  1e-20 1820 PEAK < STATED VALUE
+     Interval 1998  1e-20 1820 PEAK < STATED VALUE
+     Interval 1999  1e-20 1820 PEAK < STATED VALUE
+     SkewOpt Weighted
+     GenSkew -0.157
+     SkewSE 0.46
+     LOType MGBT
+     LoThresh 0

@@ -1,0 +1,2 @@
+"site_no","station_nm","BegYear","EndYear","RecordLength","SkewOption","Mean","StandDev","Skew","AtSiteMean","AtSiteStandDev","AtSiteSkew","AtSiteMSEG","AtSiteMSEG_GagedOnly","RegSkew","RegMSEG","HistPeaks","MGBTPeaks","PILF_Method","PILF_Thresh","PILFs","PILF_0s","WeightOpt","WeightCo","RunTime"
+"16103000","Hanalei River nr Hanalei, Kauai, HI",1962,2021,60,"Weighted",4.2021,0.1842,-0.3267,4.2009,0.1865,-0.4083,0.1132,0.1132,-0.157,0.2116,0,60,"MGBT",11600,13,0,"HWN",0.3347,0.1606

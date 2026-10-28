@@ -1,0 +1,108 @@
+log
+  Program peakfq           U. S. GEOLOGICAL SURVEY                        
+Version 8.1.1       Annual peak flow frequency analysis      Run Date / Time
+NA                                                     08/27/2026 02:46
+
+                         --- PROCESSING OPTIONS ---  
+
+                      Input files used:
+                         peaks (RDB)  - Waialua_weighted_nwis_peak.txt
+                        specifications - /opt/rstudio-connect/mnt/tmp/Rtmp7wlAfx/Waialua_weighted.psf
+                      Output directory - Waialua_weighted.txt
+  *** User responsible for assessment and interpretation of the following analysis ***
+
+
+  ********  The following warnings occurred when running the analysis: ********
+
+ZERO PERCEPTION THRESHOLD FOR MISSING YEARS FOR SITE 16210500. THESE YEARS WILL BE TREATED AS MISSING DATA.
+
+  ********                        OUTPUT FILES                        ********
+
+                    Log-Pearson Type III Fit Summary: /opt/rstudio-connect/mnt/tmp/Rtmp7wlAfx/./Waialua_weighted_lp3.csv
+ Quantile Estimates, Variance, and Confidence Limits: /opt/rstudio-connect/mnt/tmp/Rtmp7wlAfx/./Waialua_weighted_qnt.csv
+Empirical Plotting Positions and Data Representation: /opt/rstudio-connect/mnt/tmp/Rtmp7wlAfx/./Waialua_weighted_emp.csv
+                  Multiple Grubbs-Beck Test P-Values: /opt/rstudio-connect/mnt/tmp/Rtmp7wlAfx/./Waialua_weighted_mgb.csv
+                                  Trend Test Results: /opt/rstudio-connect/mnt/tmp/Rtmp7wlAfx/./Waialua_weighted_trd.csv
+
+  ********                      SUMMARY RESULTS                       ********
+
+  Station -  16210500 Kaukonahua Str at Waialua, Oahu, HI
+   ANNUAL                                                 
+EXCEEDANCE            LOG VARIANCE   <- CONFIDENCE LIMITS- >
+PROBABILITY ESTIMATE     OF EST.    5.0% LOWER   95.0% UPPER
+  0.6667      1483.0      0.0044        1133.0        1892.0
+  0.5000      2275.0      0.0039        1780.0        2890.0
+  0.4292      2710.0      0.0039        2129.0        3445.0
+  0.2000      5118.0      0.0044        4011.0        6694.0
+  0.1000      7713.0      0.0056        5932.0       10670.0
+  0.0400     11820.0      0.0084        8727.0       18180.0
+  0.0200     15500.0      0.0116       10970.0       26110.0
+  0.0100     19690.0      0.0157       13290.0       36560.0
+  0.0050     24450.0      0.0208       15640.0       50200.0
+  0.0020     31650.0      0.0289       18780.0       74540.0
+
+  ********                 OUTPUT FILE EXPLANATION                    ********
+
+basename_lp3.csv - Comma delimited file with estimated moments, PILF information, and other information used to fit the log-Pearson Type 3 distribution
+    site_no - unique site identifier
+    station_nm - site (station) name
+    BegYear - Beginning year of the analysis
+    EndYear - Ending year of the analysis
+    RecordLength - Number of years of data in the analysis. Does not include missing data years for which no information is available (lower perception threshold of infinity)
+    SkewOption - Analysis skew option - either 'Station', 'Weighted', or 'Generalized'
+    Mean - Mean (in log units) of data
+    StandDev - Standard deviation (in log units) of data
+    Skew - Skew of log-transformed data
+    AtSiteMean - Mean (in log units) of data, without regional skew
+    AtSiteStandDev - Standard deviation (in log units) of data, without regional skew
+    AtSiteSkew - Skew of log-transformed data, without regional skew
+    AtSiteMSEG - Mean Squared Error of the at-site skew coefficient
+    AtSiteMSEG_GagedOnly - Mean Squared Error of the at-site skew coefficient without censoring
+    RegSkew - Regional skew coefficient
+    RegMSEG - Mean Squared Error of the regional skew coefficient
+    HistPeaks - Number of historical peaks in the analysis
+    MGBTPeaks - Number of peaks available for Multiple Grubbs-Beck low outlier test. Computed as number of exactly known (lower flow interval value equal to upper flow interval value) input peaks, excluding historic peaks, plus any not exactly known peaks with the upper flow interval value less than the smallest exactly known peak value.
+    PILF_Method - Potentially Influential Low Flow threshold method; either 'MGBT' or 'FIXED'
+    PILF_Thresh - Potentially Influential Low Flow threshold
+    PILFs - Number of values below the PILF threshold
+    PILF_0s - Number of zero values below the PILF threshold. Zero values are always counted as PILFs.
+    WeightOpt - Option for algorithm to computed weighted skew coefficient. Possible values are HWN (default; a generalization of the PeakFQ 7.4.1 algorithm using an optimized adjustment factor when censored data are present, results are identical to PeakFQ 7.4.1 when no censored data are present), INV (identical to PeakFQ 7.4.1 and earlier), and ERL (identical to HEC-SSP 2.3)
+    WeightCo - Censored data adjustment factor for computing weighted skew coefficient
+    RunTime - Time to run analysis, in seconds
+
+basename_qnt.csv - Comma delimited file with quantile estimates, variances, and confidence intervals
+    site_no - unique site identifier
+    EXC_Prob - Annual exceedance probability
+    Estimate - Estimated discharge, in cubic feet per second
+    Variance - Variance of estimate, in log units
+    Conf_Low - Lower confidence limit, in cubic feet per second
+    Conf_Up - Upper confidence limit, in cubic feet per second
+    K_Value - K value from Bulletin 17B Appendix 3
+    Conf_Interval - confidence interval. Default is 0.90 (90-percent confidence interval)
+
+basename_emp.csv - Comma delimited file with input data representation and empirical plotting positions 
+    site_no - unique site identifier
+    peak_WY - water year of peak flow
+    peak_va - peak flow value
+    plot_pos - plotting position of peak flow, computed using Hirsch-Stedinger plotting positions
+    ql - lower flow interval value, in cubic feet per second
+    qu - upper flow interval value, in cubic feet per second
+    tl - lower perception threshold, in cubic feet per second
+    tu - upper perception threshold, in cubic feet per second
+    historic - true or false indicator of whether or not data value is a historic peak
+    ql_ema - lower flow interval value used in Expected Moments Algorithm, in cubic feet per second. Will be identical to `ql` if no PILF values are identified.
+    qu_ema - upper flow interval value used in Expected Moments Algorithm, in cubic feet per second. Will be identical to `qu` if no PILF values are identified.
+    tl_ema - lower perception threshold used in Expected Moments Algorithm, in cubic feet per second.
+    tu_ema - upper perception threshold used in Expected Moments Algorithm, in cubic feet per second.
+
+basename_mgb.csv - Comma delimited file with MGBT p-values
+    site_no - unique site identifier
+    peak_va - peak flow value identified as a low outlier by the Multiple Grubbs-Beck Test. NA values indicate no low outliers were identified for the site.
+    p_value - p-value associated with peak flow value. NA values indicate no low outliers were identified for the site.
+
+basename_trd.csv - Comma delimited file with Mann-Kendall trend test results
+    site_no - unique site identifier
+    tau - Kendall's tau value
+    p_value - p-value from Mann-Kendall test
+    median_slope - Median slope from Mann-Kendall test
+    n_peaks - number of peak values used in Mann-Kendall test

@@ -1,0 +1,131 @@
+#												
+# U.S. Geological Survey												
+# National Water Information System												
+# Retrieved: 2026-08-26 22:46:41 EDT												
+#												
+# ---------------------------------- WARNING ----------------------------------------												
+# Some of the data that you have obtained from this U.S. Geological Survey database												
+# may not have received Director's approval. Any such data values are qualified												
+# as provisional and are subject to revision. Provisional data are released on the												
+# condition that neither the USGS nor the United States Government may be held liable												
+# for any damages resulting from its use.												
+#												
+# More data may be available offline.												
+# For more information on these data,  contact  USGS Water Data Inquiries.												
+# This file contains the annual peak streamflow data.												
+#												
+# This information includes the following fields:												
+#												
+#  agency_cd     Agency Code												
+#  site_no       USGS station number												
+#  peak_dt       Date of peak streamflow (format YYYY-MM-DD)												
+#  peak_tm       Time of peak streamflow (24 hour format, 00:00 - 23:59)												
+#  peak_va       Annual peak streamflow value in cfs												
+#  peak_cd       Peak Discharge-Qualification codes (see explanation below)												
+#  gage_ht       Gage height for the associated peak streamflow in feet												
+#  gage_ht_cd    Gage height qualification codes												
+#  year_last_pk  Peak streamflow reported is the highest since this year												
+#  ag_dt         Date of maximum gage-height for water year (if not concurrent with peak)												
+#  ag_tm         Time of maximum gage-height for water year (if not concurrent with peak												
+#  ag_gage_ht    maximum Gage height for water year in feet (if not concurrent with peak												
+#  ag_gage_ht_cd maximum Gage height code												
+#												
+# Sites in this file include:												
+#  USGS 16210500 Kaukonahua Str at Waialua, Oahu, HI												
+#												
+# Peak Streamflow-Qualification Codes(peak_cd):												
+#   1 ... Discharge is a Maximum Daily Average												
+#   2 ... Discharge is an Estimate												
+#   3 ... Discharge affected by Dam Failure												
+#   4 ... Discharge less than indicated value,												
+#           which is Minimum Recordable Discharge at this site												
+#   5 ... Discharge affected to unknown degree by												
+#           Regulation or Diversion												
+#   6 ... Discharge affected by Regulation or Diversion												
+#   7 ... Discharge is an Historic Peak												
+#   8 ... Discharge actually greater than indicated value												
+#   9 ... Discharge due to Snowmelt, Hurricane,												
+#           Ice-Jam or Debris Dam breakup												
+#   A ... Year of occurrence is unknown or not exact												
+#   Bd ... Day of occurrence is unknown or not exact												
+#   Bm ... Month of occurrence is unknown or not exact												
+#   C ... All or part of the record affected by Urbanization,												
+#            Mining, Agricultural changes, Channelization, or other												
+#   F ... Peak supplied by another agency												
+#   O ... Opportunistic value not from systematic data collection												
+#   R ... Revised												
+#												
+# Gage height qualification codes(gage_ht_cd,ag_gage_ht_cd):												
+#   1 ... Gage height affected by backwater												
+#   2 ... Gage height not the maximum for the year												
+#   3 ... Gage height at different site and(or) datum												
+#   4 ... Gage height below minimum recordable elevation												
+#   5 ... Gage height is an estimate												
+#   6 ... Gage datum changed during this year												
+#   7 ... Debris, mud, or hyper-concentrated flow												
+#   8 ... Gage height tidally affected												
+#   Bd ... Day of occurrence is unknown or not exact												
+#   Bm ... Month of occurrence is unknown or not exact												
+#   F ... Peak supplied by another agency												
+#   R ... Revised												
+#												
+#												
+agency_cd	site_no	peak_dt	peak_tm	peak_va	peak_cd	gage_ht	gage_ht_cd	year_last_pk	ag_dt	ag_tm	ag_gage_ht	ag_gage_ht_cd												
+5s	15s	10d	6s	8s	33s	8s	27s	4s	10d	6s	8s	27s												
+USGS	16210500	1963-04-15		15600	5,7	26.40						
+USGS	16210500	1968-03-16		7930	5	25.14						
+USGS	16210500	1969-02-01		5100	5	23.30						
+USGS	16210500	1969-12-25		279	5	13.54						
+USGS	16210500	1971-01-16		2120	5	19.61						
+USGS	16210500	1972-01-22		1970	5	19.36						
+USGS	16210500	1972-10-04		300	5	14.04						
+USGS	16210500	1974-04-19		13400	5	26.06						
+USGS	16210500	1975-02-01		889	5	16.63						
+USGS	16210500	1976-02-06		2650	5	20.43						
+USGS	16210500	1977-04-20		610	2,5							
+USGS	16210500	1978-06-28		1200	5	18.03						
+USGS	16210500	1979-02-10		3500	2,5	22.11						
+USGS	16210500	1980-03-18		3700	2,5	22.23						
+USGS	16210500	1981-04-14		650	2,5							
+USGS	16210500	1982-01-06		5970	5	23.69						
+USGS	16210500	1982-10-29		4180	5	22.33						
+USGS	16210500	1984-04-19		500	2,5							
+USGS	16210500	1985-05-06		766	5	16.22						
+USGS	16210500	1986-05-10		2130	5	19.64						
+USGS	16210500	1987-06-12		1260	5	17.85						
+USGS	16210500	1987-12-31		3760	5	21.89						
+USGS	16210500	1989-07-21		2800	2,5	21.49						
+USGS	16210500	1990-03-06		2270	5	19.87						
+USGS	16210500	1990-11-20		4780	5	22.83						
+USGS	16210500	1991-10-16		2710	5	20.51						
+USGS	16210500	1992-12-26		1800	2,5							
+USGS	16210500	1994-03-24		2000	2,5	21.95						
+USGS	16210500	1995-08-23		1820	4,5	19.09	4					
+USGS	16210500	1996-01-25		2050	5	19.50						
+USGS	16210500	1997-01-19		4500	2,5	23.69						
+USGS	16210500	1998-00-00		1820	4,5,Bm	19.09	4,Bm					
+USGS	16210500	1999-00-00		1820	4,5,Bm	19.09	4,Bm					
+USGS	16210500	1999-12-02		6110	5	24.66						
+USGS	16210500	2001-00-00				19.31	4,Bm					
+USGS	16210500	2002-05-06		9650	5	25.33						
+USGS	16210500	2003-00-00				19.30	4,Bm					
+USGS	16210500	2003-12-07				24.74						
+USGS	16210500	2005-00-00				19.30	4,Bm					
+USGS	16210500	2005-10-01		8530	5	27.64	6					
+USGS	16210500	2006-12-08	09:58	620	5	19.34						
+USGS	16210500	2007-11-04	11:15	2530	5	23.38						
+USGS	16210500	2008-12-11	07:45	11800	2,5	29.11	1					
+USGS	16210500	2010-04-08	01:00	1140	5	20.80						
+USGS	16210500	2011-01-13	22:00	7600	5	27.15						
+USGS	16210500	2013-05-29	04:02	1360	5	21.33						
+USGS	16210500	2014-07-20	12:32	671	5	19.73						
+USGS	16210500	2015-08-26	16:15	6040	5	26.19						
+USGS	16210500	2015-11-23	06:50	2450	5	23.02						
+USGS	16210500	2017-06-15	00:57	741	5	19.93						
+USGS	16210500	2018-09-13	01:48	910	5	20.30						
+USGS	16210500	2018-10-30	10:25	2870	5	23.48						
+USGS	16210500	2020-01-12	08:12	3360	5	24.11						
+USGS	16210500	2021-03-09	21:40	3650	2,5	24.41						
+USGS	16210500	2022-01-01	08:12	3960	2,5	24.65						
+USGS	16210500	2023-02-21	00:20	1630	2,5	21.93						
+USGS	16210500	2024-05-17	11:55			26.65						

@@ -1,0 +1,13 @@
+I RDB Waiahole_weighted_nwis_peak.txt
+I INFO Waiahole_weighted_nwis_site.txt
+O File Waiahole_weighted.txt
+O Plot Format PNG
+O Plot Position 0
+O ConfInterval 0.9
+Station 16294100
+     PCPT_Thresh 2002 2024 0 1e+20 Default
+     SkewOpt Weighted
+     GenSkew -0.157
+     SkewSE 0.46
+     LOType MGBT
+     LoThresh 0

@@ -1,0 +1,4 @@
+OBJECTID,Latitude,Longitude,STA_ID,STA_NAME,STA_TYPE,COORDSRC,SITESTATUS,REACH100,MEASURE100,REACH24,MEASURE24,REACHLOC,MEASURELOC,FeatureURL,Peak_Start,Peak_End,Peak_Years
+35659,22.18019,-159.46573,16103000,"Hanalei River nr Hanalei, Kauai, HI",GS,NHD100K,A, ,0, ,0, ,0,http://nwis.waterdata.usgs.gov/nwis/inventory/?site_no=16103000,1962-04-25,2021-02-19,60.0
+35781,21.48168,-157.84639,16294100,"Waiahole Stream above Kamehameha Hwy, Oahu, HI",GS,NHD100K,A, ,0, ,0, ,0,http://nwis.waterdata.usgs.gov/nwis/inventory/?site_no=16294100,2002-05-06,2024-05-13,23.0
+35676,21.56238,-158.1211,16210500,"Kaukonahua Str at Waialua, Oahu, HI",GS,SSDB, , ,0, ,0, ,0,http://nwis.waterdata.usgs.gov/nwis/inventory/?site_no=16210500,1963-04-15,2024-05-17,62.0

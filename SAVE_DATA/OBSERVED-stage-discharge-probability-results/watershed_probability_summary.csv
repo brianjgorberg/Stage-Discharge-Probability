@@ -1,0 +1,4 @@
+watershed,target_return_period,target_discharge_cfs,target_stage_ft,cutoff_stage_ft,extra_stage_ft,reached_target
+Hanalei,1000,48743.44789743778,22,23,1,True
+Waiahole,1000,21747.753595755676,21,22,1,True
+Waialua,1000,37096.589741035415,35,36,1,True
